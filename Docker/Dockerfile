@@ -2,7 +2,7 @@ FROM ubuntu:20.04
 
 WORKDIR /root
 
-COPY run.sh .
+COPY Docker/run.sh .
 
 RUN apt update && apt install -y python3-pip git wget
 
